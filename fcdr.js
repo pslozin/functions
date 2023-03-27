@@ -321,6 +321,8 @@ const bigOrSmall = (array) => {
   return (answers)
 }
 
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+console.log(arrayEvaluator)
 console.log(bigOrSmall(bigOrSmallArray))
 
 
